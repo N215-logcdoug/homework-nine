@@ -1,0 +1,39 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+    .about-title {
+        font-family: LemonMilk;
+        color: #fff;
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    .about-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+
+        .about-image {
+            width: 400px;
+            height: 400px;
+            background-image: url(../images/HOJL.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 100%;
+        }
+
+        .about-text {
+            font-family: Helvetica;
+            color: #fff;
+            font-size: 20px;
+            width: 50%;
+        }
+    }
+    
+}
+

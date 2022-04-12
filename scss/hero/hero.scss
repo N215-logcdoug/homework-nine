@@ -1,0 +1,30 @@
+.hero {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/dusk.png);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .hero-title {
+        font-family: LemonMilk;
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .hero-text {
+        font-family: Helvetica;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        width: 50%;
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,56 @@
+.albums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    background-color: #102;
+    .albums-title {
+        font-family: LemonMilk;
+        color:#fff;
+        font-size: 80px;
+        margin-bottom: 50px;
+    }
+    .album-container {
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        .album {
+            width:400px;
+            min-height: 600px;
+            .album-art {
+                width:400px;
+                height:400px;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                margin-bottom: 40px;
+            }
+            .album-title {
+                font-family: LemonMilk;
+                color: #fff;
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.recent-tracks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    .tracks-title {
+        font-family: LemonMilk;
+        color:#fff;
+        font-size: 80px;
+    }
+    .soundcloud {
+        width: 60%;
+        iframe {
+            margin-top: 30px;
+        }
+        
+    }
+}

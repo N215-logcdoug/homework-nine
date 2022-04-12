@@ -1,0 +1,57 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #102;
+    .contact-title {
+        font-family: LemonMilk;
+        font-size: 80px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        .email {
+            width: 80%;
+            height: 50px;
+            margin-bottom: 30px;
+            background-color: black;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #fff;
+            color: #fff;
+            font-size: 20px;
+            font-family: Helvetica;
+            padding: 10px;
+        }
+
+        textarea {
+            width: 80%;
+            height: 200px;
+            margin-bottom: 30px;
+            background-color: black;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #fff;
+            color: #fff;
+            font-size: 20px;
+            font-family: Helvetica;
+            padding: 10px;
+        }
+
+        .submit {
+            width: 300px;
+            height: 100px;
+            background-color: #fff;
+            border: none;
+            color: #000;
+            font-size: 20px;
+            font-family: Helvetica;
+        }
+    }
+}
