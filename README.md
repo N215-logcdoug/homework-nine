@@ -1,3 +1,3 @@
-# homework-six
-## https://in-info-web4.informatics.iupui.edu/~logcdoug/homework-six/tours.html
-The goal for this homework assignment was to create the tours page as well as all of the individual tour information pages from the travel-fly website layout. The tours page is accessible from the the navbar and each of the individual tour package pages are accessible from the tours page. All new pages are responsive down to a width of 800px.
+# homework-nine
+## https://in-info-web4.informatics.iupui.edu/~logcdoug/homework-nine/#home
+The goal for this homework assignment was to create a webpage that utilizes the MVC principles we learned in class. The site contains four sets of content that are switched via JavaScript upon clicking the links in the navbar. Additionally the model portion of the JavaScript is located in its own file.
